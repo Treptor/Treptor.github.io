@@ -1,1 +1,49 @@
-
+@font-face {
+	font-family: 'Oswald', sans-serif;
+}
+body{
+	background-color: #42454C;
+	font-family: 'Oswald';
+	height: 100%;
+	background: linear-gradient(to top left, #42454C, #475E65, #278082);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+h2{
+	background: #EE5C45;
+	font-size: 24px;
+	padding: 5px;
+	margin: 25px;
+	color: white;
+}
+p{
+	background: #2A2F35;
+	padding: 10px;
+	font-size: 18px;
+	margin: -25px 25px 25px 25px;
+	color: white;
+}	
+.topdeck{
+	height: 110px;
+	width: 100%;
+    background-color: #2A2F35cd;
+	color: white;
+	margin: -8px;
+	padding: 8px;
+	font-size: 110%;
+}
+.botdeck{
+	height: 100px;
+	width: 100%;
+    background-color: #2A2F35cd;
+	color: white;
+	margin: -8px;
+	padding: 8px;
+}
+.botdeck_h4{
+	height: 50;
+	width: 100%;
+	color: white;
+	padding: 0px;
+	font-size: 20px;
+}
