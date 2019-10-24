@@ -9,6 +9,9 @@ body{
 	background-attachment: fixed;
 	background-size: 100%;
 }
+iframe{
+	font-family: 'Oswald';
+}
 h2{
 	background: #EE5C45;
 	font-size: 24px;
