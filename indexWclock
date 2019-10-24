@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Интернет-технологии</title>
+		<meta chatset="utf8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="clock.css">
+	</head>
+	<body>
+		<div class="topdeck">
+			<h1 align="center">Интернет-технологии</h1>
+		</div>
+		<div class="clock">
+  <div class="hours">
+    <div class="first">
+      <div class="number">0</div>
+    </div>
+    <div class="second">
+      <div class="number">0</div>
+    </div>
+  </div>
+  <div class="tick">:</div>
+  <div class="minutes">
+    <div class="first">
+      <div class="number">0</div>
+    </div>
+    <div class="second">
+      <div class="number">0</div>
+    </div>
+  </div>
+  <div class="tick">:</div>
+  <div class="seconds">
+    <div class="first">
+      <div class="number">0</div>
+    </div>
+    <div class="second infinite">
+      <div class="number">0</div>
+    </div>
+  </div>
+</div>
+		<div class="div1">
+			<h2 class="div1">Лабораторная работа №1 "Экосистема разработки программ с открытым кодом"</h2>
+			<p>
+			<u>В ходе работы выполнены следующие задачи:</u><br>
+			Изучена работа с сервисом GitHub<br>
+			Изучено использование GitHub как хостинга<br>
+			Создана персональная страница с использованием хостинга на GitHub<br>
+			Распределены роли и здачи между участниками проекта<br>
+			</p>
+		</div>
+		<div class="div2">
+			<h2>Лабораторная работа №2 "Разработка простого веб-приложения"</h2>
+			<p>
+			<u>В ходе работы выполнены следующие задачи:</u><br>
+			Изучена и выполнена настройка коммутаторов и маршрутизаторов<br>
+			</p>
+		</div>
+		<div class="div3">
+			<h2>Лабораторная работа №3 "Настройка локальной сети передачи данных"</h2>
+			<p>
+			<u>В ходе работы выполнены следующие задачи:</u><br>
+			Сформирован проект коллективного веб-приложения<br>
+			Разработан проект коллективного веб-приложения с использованием HTML, CSS, JS, JSON, XML<br>
+			</p>
+		</div>
+		<div class="div4">
+			<h2 class="div4">Экзамен</h2>
+			<p>
+			<u>Для подготовки к экзамену выполнено следующее:</u><br>
+			Выполнена самооценка прохождения теста по инновациям<br>
+			Выполнена самооценка прохождения теста по управлению проектами (рисками)<br>
+			Подготовлен мини-конспект ответа на один из экзаменационных билетов<br>
+			</p>
+		</div>
+		<div class="botdeck">
+			<div class="botdeck_h4">
+				<h4 align="right">Фетисов Егор, группа ИДМ-19-02</h4>
+			</div>
+		</div>
+	</body>
+</html>
