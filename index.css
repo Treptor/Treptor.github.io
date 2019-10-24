@@ -11,6 +11,7 @@ body{
 }
 iframe{
 	font-family: 'Oswald';
+	font-size: 28px;
 	overflow:hidden;
 	border:0;
 	margin:20px;
