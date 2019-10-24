@@ -5,9 +5,10 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     */
+    background: black;
     color: #17D4FE;
     font-size: 60px;
-    font-family: Orbitron;
+    font-family: 'Oswald';
     letter-spacing: 7px;
     margin:50px;
 }
