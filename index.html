@@ -5,20 +5,17 @@
 		<meta chatset="utf8">
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="clock.css">
-		<script type="text/javascript" src="clock.js">
-			showTime();
-		</script>
+		<link rel="stylesheet" type="text/css" href="lightbox.css">
+		<script type="text/javascript" src="lightbox.js"></script>
 	</head>
 	<body>
 		<div class="topdeck">
 			<h1 align="center">Интернет-технологии</h1>
-			<div id="MyClockDisplay" class="clock" onload="showTime()">
 			</div>
 		</div>
 		<div class="div1">
 			<h2 class="div1">Лабораторная работа №1 "Экосистема разработки программ с открытым кодом"</h2>
-			<p class="regrext">
+			<p class="regtext">
 			<u>В ходе работы выполнены следующие задачи:</u><br>
 			Изучена работа с сервисом GitHub<br>
 			Изучено использование GitHub как хостинга<br>
@@ -26,16 +23,55 @@
 			Распределены роли и здачи между участниками проекта<br>
 			</p>
 		</div>
+		<div class="row">
+		  <div class="column">
+			<img src="scrn/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"  alt="Страница проекта личной страницы на GitHub">
+		  </div>
+		  <div class="column">
+			<img src="scrn/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow"  alt="Код HTML файла личной страницы">
+		  </div>
+		  <div class="column">
+			<img src="scrn/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"  alt="Результат прохождения теста Белбина для определения роли">
+		  </div>
+		</div>
+
+		<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+
+			<div class="mySlides">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="scrn/img1_wide.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="scrn/img2_wide.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="scrn/img3_wide.jpg" style="width:100%">
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<div class="caption-container">
+			  <p id="caption"></p>
+			</div>
+		  </div>
+		</div>
+		
 		<div class="div2">
 			<h2>Лабораторная работа №2 "Разработка простого веб-приложения"</h2>
-			<p class="regrext">
+			<p class="regtext">
 			<u>В ходе работы выполнены следующие задачи:</u><br>
 			Изучена и выполнена настройка коммутаторов и маршрутизаторов<br>
 			</p>
 		</div>
 		<div class="div3">
 			<h2>Лабораторная работа №3 "Настройка локальной сети передачи данных"</h2>
-			<p class="regrext">
+			<p class="regtext">
 			<u>В ходе работы выполнены следующие задачи:</u><br>
 			Сформирован проект коллективного веб-приложения<br>
 			Разработан проект коллективного веб-приложения с использованием HTML, CSS, JS, JSON, XML<br>
@@ -43,7 +79,7 @@
 		</div>
 		<div class="div4">
 			<h2 class="div4">Экзамен</h2>
-			<p class="regrext">
+			<p class="regtext">
 			<u>Для подготовки к экзамену выполнено следующее:</u><br>
 			Выполнена самооценка прохождения теста по инновациям<br>
 			Выполнена самооценка прохождения теста по управлению проектами (рисками)<br>
